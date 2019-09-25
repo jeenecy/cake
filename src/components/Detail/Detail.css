@@ -1,0 +1,109 @@
+.details-box {
+    background: #fff;
+    /* padding-bottom: 1.25rem; */
+    text-align: left
+}
+.pro-title {
+    padding: 0 1.5rem;
+    color: #333;
+}
+.pro-title h3 {
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.8125rem;
+    padding-top: 0.625rem;
+    margin-bottom: 0 !important;
+}
+.pro-title span {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+.price-label {
+    margin-top: 0.25rem;
+    height: 1.875rem;
+}
+.price-label span {
+    display: inline-block;
+}
+.top-price {
+    font-size: 1.375rem;
+    color: #C69C6D;
+    padding-left: 1.5rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    text-align: left
+}
+.top-mkt-price {
+    color: #b2b2b2;
+    text-decoration: line-through;
+    font-size: 0.625rem;
+    position: relative;
+    bottom: 0.125rem;
+    margin-left: 0.125rem;
+}
+.pro-details-label {
+    padding: 0.3125rem 1.5rem;
+}
+.pro-details-label .leibie{
+    display: inline-block;
+    line-height: 1.125rem;
+    color: #D5BFA7;
+    padding: 0 0.75rem;
+    border: 0.0625rem solid #D5BFA7;
+    border-radius: 6.25rem;
+    margin-right: 0.375rem;
+}
+.details-taste {
+    padding: 0.625rem 1.5rem 0;
+    overflow: hidden;
+}
+.details-taste li {
+    float: left;
+    height: 2rem;
+    line-height: 2rem;
+    margin-right: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+.details-taste li img {
+    width: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+/* 底部 */
+.bottom-addcart-button {
+    position: fixed;
+    height: 46px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    z-index: 100000000;
+    box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.1);
+    text-align: center
+}
+.bottom-addcart-button .joinCart {
+    overflow: hidden;
+    width: 100%;
+}
+.bottom-addcart-button .left-buy {
+    background: #fff;
+    color: #442818;
+}
+.left-buy, .bottom-addcart-button .join-cart {
+    float: left;
+    width: 50%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    margin: 0;
+}
+.bottom-addcart-button .join-cart{
+    display: block;
+    background: #442818;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}

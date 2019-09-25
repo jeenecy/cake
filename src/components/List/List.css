@@ -1,0 +1,91 @@
+.list-main{
+    position: relative;
+}
+.products-list-nav-box {
+    position: relative;
+    height: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.products-list-nav {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    height: 2.5rem;
+}
+.list-nav {
+    width: 30.9375rem;
+    left: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 2.5rem;
+    background: #fff;
+    overflow: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    /* margin-top:10px */
+}
+.list-nav li .nav-name {
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 2.375rem;
+    /* color: #707070; */
+}
+.list-nav li {
+    width: 5.1563rem;
+    float: left;
+    text-align: center;
+    
+}
+a:hover{
+    border-bottom: 0.125rem solid #442818;
+}
+
+/* 商品渲染区域 */
+.list-box {
+    padding-left: 1.3125rem;
+    padding-right: 1.25rem;
+}
+.list-box ul {
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-box li {
+    width: 50%;
+    position: relative;
+}
+.list-pro-box li>div {
+    padding-left: 0.9375rem;
+}
+.list-pro-box li .list-pro-content {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.list-pro-box li .list-pro-a{
+    display: block;
+    overflow: hidden;
+}
+.list-pro-box li .list-pro-content .list-pro-img {
+    width: 100%;
+}
+.list-pro-img{
+    height: 11rem;
+}
+.list-pro-img img{
+    height: 100%;
+}
+.list-cart {
+    display: block;
+    width: 14%;
+    position: absolute;
+    right: 20%;
+    bottom: 0%;
+}
+.list-cart img{
+    width: 1.375rem
+}

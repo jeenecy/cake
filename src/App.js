@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route,Switch,Redirect,Link} from 'react-router-dom'
+import {withRouter} from 'react-router-dom'
 import './App.css';
-
+import Home from './components/Home'
+import List from './components/List'
+import Detail from './components/Detail'
+import Cart from './components/Cart'
+import Login from './components/Login'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Switch>
+          <Route path="/home" component={Home} />
+          <Route path="/list" component={List} />
+          {/* <Route path="/list:1" component={List} />
+          <Route path="/list:2" component={List} />
+          <Route path="/list:3" component={List} />
+          <Route path="/list:4" component={List} />
+          <Route path="/list:5" component={List} />
+          <Route path="/list:6" component={List} /> */}
+          {/* <Redirect from="/list" to="list/:1" exact /> */}
+          <Route path="/detail" component={Detail} />
+          <Route path="/cart" component={Cart} />
+          <Route path="/login" component={Login} />
+          <Redirect from="/" to="home" exact />
+        </Switch>
+
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);

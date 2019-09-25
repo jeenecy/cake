@@ -1,0 +1,105 @@
+.cart-container{
+    min-height: 38.6875rem;
+    padding-bottom: 4.25rem;
+    max-width: 26.25rem;
+    margin: 0 auto;
+}
+.cart-top-tip{
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    background: #ccc
+}
+.cart-pro-list{
+    margin-top: 0.625rem
+}
+.cart-object-goods-item{
+    background: #fff;
+    margin-bottom: 0.9375rem;
+    padding: 0 1.25rem;
+    padding-bottom: 0.9375rem;
+    position: relative;
+}
+/* 每一列商品 */
+.cart-pro-box img {
+    display: block;
+    float: left;
+    width: 6.8125rem;
+    height: 7.5rem;
+}
+.cart-pro-box .cart-pro-title {
+    padding-left: 8rem;
+}
+.cart-pro-box h2 {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.375rem;
+}
+.cart-pro-box span {
+    display: block;
+    font-size: 11px;
+    color: #969696;
+}
+.cart-pro-box h2 span {
+    font-size: 0.75rem;
+    color: #442818;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cart-object-goods-item .cart-select-pound {
+    display: inline-block;
+    padding: 2px 2px 1px 5px;
+    margin-top: 2px;
+    border: 1px solid #E2E2E2;
+}
+.cart-object-goods-item .cart-select-pound i {
+    display: inline-block;
+    height: 9px;
+    width: 18px;
+    background: url(/img/cart-select-pound.png) no-repeat center center;
+    background-size: 11px;
+}
+.cart-pro-box .cart-price {
+    margin-top: 10px;
+}
+/* 加减 */
+.cart-pro-number{
+    position: absolute;
+    height: 26px;
+    width: 78px;
+    overflow: hidden;
+    top: 93px;
+    right: 20px;
+}
+.cart-pro-number span{
+    background: #F7F7F7;
+    color: #969696;
+    font-size: 12px;
+}
+.cart-pro-number span {
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+/* 免费餐具 */
+.cart-pro-list .laid-count {
+    height: 46px;
+    line-height: 46px;
+    background: url(/img/cart-laid.png) no-repeat left;
+    background-size: 46px 46px;
+    padding-left: 55px;
+    text-align: left
+}
+.birthday-brand{
+    display: block;
+    line-height: 30px;
+    padding-left: 80px;
+    height: 30px;
+    background: url(/img/cart-birthday.jpg) no-repeat left,url(/img/go-right.png) right center no-repeat;
+    background-size: 66px 30px ,8px 12px;
+    color: #707070;
+}
